@@ -280,7 +280,7 @@ spec:
   lifecycle: experimental
   owner: user:greg.meyer
   system: where-for-dinner
-  definition:
+  # definition:
    # $text: http://where-for-dinner-search.where-for-dinner.svc.cluster.local/v3/api-docs 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -296,5 +296,5 @@ spec:
   lifecycle: experimental
   owner: user:greg.meyer
   system: where-for-dinner
-  definition:
+  # definition:
    # $text: http://where-for-dinner-availability.where-for-dinner.svc.cluster.local/v3/api-docs/
