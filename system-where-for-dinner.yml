@@ -281,7 +281,7 @@ spec:
   owner: user:greg.meyer
   system: where-for-dinner
   definition:
-    $text: http://where-for-dinner-search.where-for-dinner.svc.cluster.local/v3/api-docs 
+   # $text: http://where-for-dinner-search.where-for-dinner.svc.cluster.local/v3/api-docs 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -297,4 +297,4 @@ spec:
   owner: user:greg.meyer
   system: where-for-dinner
   definition:
-    $text: http://where-for-dinner-availability.where-for-dinner.svc.cluster.local/v3/api-docs/
+   # $text: http://where-for-dinner-availability.where-for-dinner.svc.cluster.local/v3/api-docs/
